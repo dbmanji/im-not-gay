@@ -29,4 +29,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+quotes = [
+    "Code never lies, comments sometimes do. 💡",
+    "Django makes it easier to build better Web apps more quickly with less code.",
+    "Keep calm and migrate on. 🛠️",
+    "404 motivation not found. 😅",
+]
+print(random.choice(quotes))
 # test
